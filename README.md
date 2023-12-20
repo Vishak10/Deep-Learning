@@ -16,8 +16,7 @@ Early stopping keeps track of the validation loss, if the loss stops decreasing 
 * The EarlyStopping class in pytorchtool.py is used to create an object to keep track of the validation loss while training a PyTorch model.
 * It will save a checkpoint of the model each time the validation loss decrease.
 * We set the patience argument in the EarlyStopping class to how many epochs we want to wait after the last time the validation loss improved before breaking the training loop.
-
-The code is the plot from the example notebook, which shows the last checkpoint made by the EarlyStopping object, right before the model started to overfit. 
+* It also shows the last checkpoint made by the EarlyStopping object, right before the model started to overfit. 
 
 # Usage
 You can run this project directly in the browser by clicking this button: Binder, or you can clone the project to your computer and install the required pip packages specified in the requirements text file.
